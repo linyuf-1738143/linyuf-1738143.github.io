@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+
+h3{
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+}
+
+a{
+	color: white; 
+	font-weight: bold; 
+	font-size: 24px;
+}
+
+p{
+	color: white;
+	font-family: "Arial";
+
+#Header {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px
+	border: solid 8px black;
+	text-align: center;
+	background-color: #8339CF;
+	color: #FFBC00; 
+	font-family: "Passion One";
+}
+
+#Header h1{
+	color: #FFBC00;
+	font-size: 60px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+}
+
+}
+#LeftNav{
+	width: 400px;
+	float: left;
+	border: solid 8px black;
+	text-align: center;
+    background-color: #8339CF; 
+    padding-bottom: 8px;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+#Content{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+    border: solid 8px black;
+    background-color: #8339CF; 
+    text-align: center;
+    padding: 15px;
+
+}
+#bow{
+	color: #FFBC00;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#Footer{
+	border: solid 8px black;
+	background-color: #8339CF; 
+	text-align: center;
+   
+}
