@@ -1,0 +1,47 @@
+body {
+    background-color: #FFE4E1;
+    text-align: center;
+}
+
+h1{
+	color: #000000;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+}
+
+#One {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px
+	border: solid 8px black;
+    text-align: center;
+	background-color: #FFF0F5;
+	color: #000000; 
+	font-family: "Passion One";
+}
+
+#Two {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px
+	border: solid 8px black;
+    text-align: center;
+	background-color: #FFF0F5;
+	color: #000000; 
+	font-family: "Passion One";
+}
+
+#Three {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px
+	border: solid 8px black;
+    text-align: center;
+	background-color: #FFF0F5;
+	color: #000000; 
+	font-family: "Passion One";
+}

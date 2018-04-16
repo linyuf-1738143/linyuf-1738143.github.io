@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Application</title>
+	<link rel="stylesheet" type="text/css" href="job.css">
+</head>
+<body>
+<h1>Job Application</h1>
+
+
+<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
+    <div id = "One">
+    	<br>
+	<h2>Create an Account</h2>
+	User name:
+	<input type="text" name="username">
+    <br><br>
+    Password:
+    <input type="password" name="pwd">
+    <br>
+    Repeat password
+    <input type="password" name="repwd">
+    <br><br>
+    <button type="button" onclick="alert('Please finish this form before May 1st!')">Deadline!</button>
+    <br><br>
+    </div>
+    <br><br><br>
+
+    <div id="Two">
+    	<br>
+    	<h2>Personal Information</h2>
+    First name:
+	<input type="text" name="firstname">
+    <br>
+    Last name:
+    <input type="text" name="lastname">
+    <br><br>
+    Gender:<br>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other  
+    <br><br>
+    Time avaiability:<br>
+    <input type="checkbox" name="full" value="fulll">I want a part-time job<br>
+    <input type="checkbox" name="part" value="Car">I want a full-time job<br>
+    <input type="checkbox" name="part" value="Car">Both are ok
+    <br><br>
+    Job types:
+    <select name="types"> 
+    	<option value="Finance">Finance</option>
+    	<option value="Marketing">Marketing</option> 
+    	<option value="HR">HR</option> 
+    	<option value="PR">PR</option> 
+    </select>
+    <br>
+    </div>
+    <br><br>
+    <div id="Three">
+    <br>
+    <h2>Questions</h2>
+    <br>
+    What is your greatest strength or skill?<br>
+    <textarea name="essay1" rows="10" cols="60"></textarea>
+    <br><br>
+    What separates you from other candidates?<br>
+    <textarea name="essay2" rows="10" cols="60"></textarea>
+    <br><br>
+    How do you rate your persistence?<br>
+    0
+    <input type="range" id="a" name="a" value="50">
+    100 
+    <br><br>
+
+    <input type="submit" value="Submit">
+    </div>
+</form>
+</body>
+</html>
